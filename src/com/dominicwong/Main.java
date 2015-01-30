@@ -14,7 +14,7 @@ public class Main {
             unsortedArray[i] = random.nextInt(100);
         }
         System.out.println(Arrays.toString(unsortedArray));
-        Integer[] sortedArray = BubbleSort.sort(unsortedArray);
+        Integer[] sortedArray = BubbleSort.sortTwo(unsortedArray);
         System.out.println("The result is:");
         System.out.println(Arrays.toString(sortedArray));
     }
