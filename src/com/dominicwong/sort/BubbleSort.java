@@ -5,7 +5,7 @@ package com.dominicwong.sort;
  */
 public class BubbleSort {
     // Solution 1
-    public static Integer[] sort(Integer[] toBeSorted) {
+    public static int[] sort(int[] toBeSorted) {
         boolean swapped = false;
 
         do {
@@ -24,7 +24,7 @@ public class BubbleSort {
     }
 
     // Solution 2
-    public static Integer[] sortTwo(Integer[] toBeSorted) {
+    public static int[] sortTwo(int[] toBeSorted) {
         for (int i = 0; i < toBeSorted.length - 2; i++) {
             for (int j = 0; j < toBeSorted.length - 2 - i; j++) {
                 if (toBeSorted[j] > toBeSorted[j+1]) {
