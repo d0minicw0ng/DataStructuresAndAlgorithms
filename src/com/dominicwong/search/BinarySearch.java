@@ -19,4 +19,22 @@ public class BinarySearch {
             return recursiveSearch(sortedArray, data, mid + 1, high);
         }
     }
+
+    public static int iterativeBinarySearch(int [] sortedArray, int data) {
+        int low = 0;
+        int high = sortedArray.length - 1;
+        int mid;
+
+        while (low <= high) {
+            mid = (low + high) / 2;
+            if (sortedArray[mid] == data) {
+                return mid;
+            } else if (sortedArray[mid] > data) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return -1;
+    }
 }

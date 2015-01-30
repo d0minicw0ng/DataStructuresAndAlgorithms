@@ -16,7 +16,7 @@ public class Main {
             unsortedArray[i] = random.nextInt(100);
         }
         int[] arr = {1,2,3,4,5,6,7,8,8,9,9,50};
-        int index = BinarySearch.recursiveSearch(arr, 3);
+        int index = BinarySearch.iterativeBinarySearch(arr, 50);
         System.out.println(index);
 //        System.out.println("The result is:");
 //        System.out.println(Arrays.toString(sortedArray));
