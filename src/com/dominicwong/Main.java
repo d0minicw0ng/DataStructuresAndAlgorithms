@@ -1,7 +1,6 @@
 package com.dominicwong;
 
-import com.dominicwong.sort.BubbleSort;
-import com.dominicwong.sort.SelectionSort;
+import com.dominicwong.sort.InsertionSort;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -15,7 +14,7 @@ public class Main {
             unsortedArray[i] = random.nextInt(100);
         }
         System.out.println(Arrays.toString(unsortedArray));
-        int[] sortedArray = SelectionSort.sort(unsortedArray);
+        int[] sortedArray = InsertionSort.sort(unsortedArray);
         System.out.println("The result is:");
         System.out.println(Arrays.toString(sortedArray));
     }
