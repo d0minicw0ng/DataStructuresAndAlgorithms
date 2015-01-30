@@ -1,5 +1,7 @@
 package com.dominicwong.DataStructures;
 
+import java.util.Arrays;
+
 /**
  * Created by dominicwong on 30/1/15.
  */
@@ -13,51 +15,55 @@ public class MockArray {
     }
 
     public int[] getValue() {
-        return this.value;
+        return value;
     }
 
     public int getLength() {
-        return this.length;
+        return length;
     }
 
     public int indexOf(int data) {
-        for (int i = 0; i < this.length; i++) {
-            if (this.value[i] == data) {
+        for (int i = 0; i < length; i++) {
+            if (value[i] == data) {
                 return i;
             }
         }
         return -1;
     }
 
-    public boolean delete(int data) {
+    public int delete(int data) {
         int index = this.indexOf(data);
         if (index == -1) {
-            return false;
+            return index;
         }
 
-        int[] newValue = new int[this.length - 1];
+        int[] newValue = new int[length - 1];
         int i = 0;
         for (; i < index; i++) {
-            newValue[i] = this.value[i];
+            newValue[i] = value[i];
         }
         i++;
-        for (; i < this.length; i++) {
-            newValue[i-1] = this.value[i];
+        for (; i < length; i++) {
+            newValue[i-1] = value[i];
         }
 
-        this.value = newValue;
-        this.length--;
-        return true;
+        value = newValue;
+        length--;
+        return index;
     }
 
-    public int[] push(int data) {
-        int[] newArray = new int[this.length + 1];
-        for (int i = 0; i < this.value.length; i++) {
-            newArray[i] = this.value[i];
+    public int push(int data) {
+        int[] newArray = new int[length + 1];
+        for (int i = 0; i < value.length; i++) {
+            newArray[i] = value[i];
         }
-        newArray[this.length] = data;
-        this.length++;
-        this.value = newArray;
-        return this.value;
+        newArray[length] = data;
+        length++;
+        value = newArray;
+        return length - 1;
+    }
+
+    public String toString() {
+        return Arrays.toString(value);
     }
 }

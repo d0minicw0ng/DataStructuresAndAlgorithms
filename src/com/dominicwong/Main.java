@@ -1,6 +1,7 @@
 package com.dominicwong;
 
 import com.dominicwong.DataStructures.MockArray;
+import com.dominicwong.DataStructures.OrderedArray;
 import com.dominicwong.search.BinarySearch;
 import com.dominicwong.sort.InsertionSort;
 
@@ -15,9 +16,16 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             unsortedArray[i] = random.nextInt(100);
         }
-        int[] arr = {1,2,3,4,5,6,7,8,8,9,9,50};
-        int index = BinarySearch.iterativeBinarySearch(arr, 50);
-        System.out.println(index);
+
+        int[] a = {234,241,4124,213,121,3,123,1231};
+        OrderedArray arr = new OrderedArray(a);
+        System.out.println(arr.toString());
+        arr.insert(10);
+        arr.insert(50);
+        arr.insert(60);
+        System.out.println(arr.toString());
+        arr.delete(arr.getValue()[4]);
+        System.out.println(arr.toString());
 //        System.out.println("The result is:");
 //        System.out.println(Arrays.toString(sortedArray));
     }
