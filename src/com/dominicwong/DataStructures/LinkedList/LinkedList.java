@@ -37,6 +37,35 @@ public class LinkedList {
         return null;
     }
 
+    public void appendLastNNodesToBeginningOfList(int n) {
+        int length = length();
+        if (head == null || length == 1 || n >= length) {
+            return;
+        }
+        int targetNodeCount = length - n + 1;
+        int currentCount = 1;
+        Node current = head;
+        Node newHead = null;
+        Node tail = null;
+        Node newTail = null;
+        while (current != null) {
+            if (currentCount == targetNodeCount - 1) {
+                newTail = current;
+            }
+            if (currentCount == targetNodeCount) {
+                newHead = current;
+            }
+            if (current.getNext() == null) {
+                tail = current;
+            }
+            current = current.getNext();
+            currentCount++;
+        }
+        tail.setNext(head);
+        newTail.setNext(null);
+        this.head = newHead;
+    }
+
     @Override
     public String toString() {
         String result = "{";
