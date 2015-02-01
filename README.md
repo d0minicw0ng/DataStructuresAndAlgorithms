@@ -1,6 +1,7 @@
 # Common Data Structures and Algorithms
 
-My plan is to implement common data structures and algorithms in Java as a practice. 
+My plan is to implement common data structures and algorithms in Java as a practice. I also hope this can be 
+a useful material for anyone who wants to learn/refresh very basic data structures and algorithms.
 
 ### Sorting
 - Bubble Sort
@@ -14,6 +15,7 @@ My plan is to implement common data structures and algorithms in Java as a pract
 - Array
 - Ordered Array
 - Linked List
+- Doubly Linked List
 
 ### Common Problems
 ##### String
