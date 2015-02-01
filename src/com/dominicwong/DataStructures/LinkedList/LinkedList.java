@@ -26,7 +26,7 @@ public class LinkedList {
         return length;
     }
 
-    public Node find(int data) {
+    public Node search(int data) {
         Node current = head;
         while (current != null) {
             if (current.getData() == data) {
