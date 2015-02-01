@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07fa77dd-bc42-4de7-89d0-4688030687d2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/Node.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/MockArray.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/MockArray.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/OrderedArray.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/OrderedArray.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dominicwong/Main.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dominicwong/CommonProblems/StringProblems.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/CommonProblems/StringProblems.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataStructuresAndAlgorithms.iws" />
@@ -30,13 +33,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="MockArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/MockArray.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/MockArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1065">
               <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
-                <element signature="e#1367#1368#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,11 +55,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dominicwong/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37757438" vertical-offset="0" max-vertical-offset="480">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="600">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="20" />
+              <folding>
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="480">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -110,13 +148,15 @@
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/OrderedArray.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/MockString.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/CommonProblems/StringProblems.java" />
+        <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/Node.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="30" />
+    <option name="x" value="710" />
+    <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="763" />
   </component>
@@ -244,6 +284,10 @@
               <option name="myItemId" value="DataStructures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LinkedList" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -263,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CommonProblems" />
+              <option name="myItemId" value="DataStructures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,7 +495,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="30" width="1400" height="763" extended-state="0" />
+    <frame x="710" y="23" width="1400" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -533,13 +577,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/MockArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/MockArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1065">
           <caret line="66" column="28" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="37" />
           <folding>
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -560,18 +604,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/OrderedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/OrderedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1410">
           <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#491#492#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#1924#1925#0" expanded="false" />
-            <element signature="e#1969#1970#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#1930#1931#0" expanded="false" />
+            <element signature="e#1975#1976#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -621,34 +665,34 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/MockArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/MockArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="688" max-vertical-offset="1125">
           <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
           <folding>
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/OrderedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/OrderedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1410">
           <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#491#492#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#1924#1925#0" expanded="false" />
-            <element signature="e#1969#1970#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#1930#1931#0" expanded="false" />
+            <element signature="e#1975#1976#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,7 +742,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,18 +771,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/OrderedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/OrderedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
           <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#491#492#0" expanded="false" />
-            <element signature="e#521#522#0" expanded="false" />
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#1924#1925#0" expanded="false" />
-            <element signature="e#1969#1970#0" expanded="false" />
+            <element signature="e#469#470#0" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#556#557#0" expanded="false" />
+            <element signature="e#1930#1931#0" expanded="false" />
+            <element signature="e#1975#1976#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -751,13 +795,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/MockArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/Array/MockArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1065">
           <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
           <folding>
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,8 +848,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37757438" vertical-offset="0" max-vertical-offset="480">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="600">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="480">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>

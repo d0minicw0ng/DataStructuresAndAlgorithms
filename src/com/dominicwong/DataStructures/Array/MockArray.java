@@ -1,4 +1,4 @@
-package com.dominicwong.DataStructures;
+package com.dominicwong.DataStructures.Array;
 
 import java.util.Arrays;
 

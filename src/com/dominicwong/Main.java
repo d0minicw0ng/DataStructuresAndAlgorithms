@@ -1,34 +1,16 @@
 package com.dominicwong;
 
 import com.dominicwong.CommonProblems.StringProblems;
-import com.dominicwong.DataStructures.MockArray;
-import com.dominicwong.DataStructures.OrderedArray;
-import com.dominicwong.search.BinarySearch;
-import com.dominicwong.sort.InsertionSort;
-
-import java.util.Arrays;
-import java.util.Random;
+import com.dominicwong.DataStructures.LinkedList.LinkedList;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(StringProblems.isAnagramSolutionTwo("abcde", "bcdea"));
-        //        int[] unsortedArray = new int[10];
-//        Random random = new Random();
-//        for (int i = 0; i < 10; i++) {
-//            unsortedArray[i] = random.nextInt(100);
-//        }
-//
-//        int[] a = {234,241,4124,213,121,3,123,1231};
-//        OrderedArray arr = new OrderedArray(a);
-//        System.out.println(arr.toString());
-//        arr.insert(10);
-//        arr.insert(50);
-//        arr.insert(60);
-//        System.out.println(arr.toString());
-//        arr.delete(arr.getValue()[4]);
-//        System.out.println(arr.toString());
-//        System.out.println("The result is:");
-//        System.out.println(Arrays.toString(sortedArray));
+        LinkedList list = new LinkedList();
+        list.insertHead(5);
+        list.insertHead(10);
+        list.insertHead(2);
+        list.insertHead(30);
+        System.out.println(list.toString());
     }
 }
