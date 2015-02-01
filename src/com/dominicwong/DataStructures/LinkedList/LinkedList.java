@@ -12,6 +12,20 @@ public class LinkedList {
         this.head = newHead;
     }
 
+    public void deleteHead() {
+        this.head = head.getNext();
+    }
+
+    public int length() {
+        Node current = head;
+        int length = 0;
+        while (current != null) {
+            length++;
+            current = current.getNext();
+        }
+        return length;
+    }
+
     @Override
     public String toString() {
         String result = "{";
