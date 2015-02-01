@@ -1,5 +1,7 @@
 package com.dominicwong.DataStructures.LinkedList;
 
+import java.util.HashSet;
+
 /**
  * Created by dominicwong on 1/2/15.
  */
@@ -85,6 +87,29 @@ public class LinkedList {
                 node.setNext(nodes[currentIndex]);
             } else {
                 node.setNext(null);
+            }
+        }
+    }
+
+    public void removeDuplicates() {
+        if (length() <= 1) {
+            return;
+        }
+        HashSet<Integer> datas = new HashSet<Integer>();
+
+        Node prev = head;
+        Node current = prev.getNext();
+
+        datas.add(new Integer(prev.getData()));
+        while (current != null) {
+            Integer val = new Integer(current.getData());
+            if (datas.contains(val)) {
+                prev.setNext(current.getNext());
+                current = current.getNext();
+            } else {
+                datas.add(new Integer(current.getData()));
+                prev = prev.getNext();
+                current = current.getNext();
             }
         }
     }

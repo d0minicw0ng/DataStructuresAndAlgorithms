@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dominicwong/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5491991" vertical-offset="0" max-vertical-offset="437">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -97,14 +97,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="2070">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.7437071" vertical-offset="1265" max-vertical-offset="2445">
+              <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
               <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#2346#2355#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -183,13 +184,13 @@
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/SortedLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/DoublyLinkedNode.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/DoublyLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="213" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="763" />
@@ -529,7 +530,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="23" width="1400" height="763" extended-state="0" />
+    <frame x="213" y="23" width="1400" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -933,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="600">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/SortedLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="870">
@@ -949,22 +942,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="2070">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="40" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="600">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5491991" vertical-offset="0" max-vertical-offset="437">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7437071" vertical-offset="1265" max-vertical-offset="2445">
+          <caret line="106" column="48" selection-start-line="106" selection-start-column="48" selection-end-line="106" selection-end-column="48" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#2346#2355#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
