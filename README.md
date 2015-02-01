@@ -12,7 +12,13 @@ My plan is to implement common data structures and algorithms in Java as a pract
 
 ### Data Structures
 - Array
-- OrderedArray
+- Ordered Array
+- Linked List
+
+### Common Problems
+##### String
+- determine whether a string has unique characters
+- determine whether two strings are anagrams 
 
 
 ### Problems 
