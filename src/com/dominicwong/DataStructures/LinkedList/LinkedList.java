@@ -26,6 +26,17 @@ public class LinkedList {
         return length;
     }
 
+    public Node find(int data) {
+        Node current = head;
+        while (current != null) {
+            if (current.getData() == data) {
+                return current;
+            }
+            current = current.getNext();
+        }
+        return null;
+    }
+
     @Override
     public String toString() {
         String result = "{";
