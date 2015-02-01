@@ -37,6 +37,36 @@ public class LinkedList {
         return null;
     }
 
+    public void reverse() {
+        int length = length();
+        if (length <= 1) {
+            return;
+        }
+
+        Node[] nodes = new Node[length];
+        Node current = head;
+        int currentIndex = 0;
+        while (current != null) {
+            nodes[currentIndex] = current;
+            current = current.getNext();
+            if (current != null) {
+                currentIndex++;
+            }
+        }
+        while (currentIndex >= 0) {
+            Node node = nodes[currentIndex];
+            if (currentIndex == length - 1) {
+                this.head = node;
+            }
+            currentIndex--;
+            if (currentIndex >= 0) {
+                node.setNext(nodes[currentIndex]);
+            } else {
+                node.setNext(null);
+            }
+        }
+    }
+
     public void appendLastNNodesToBeginningOfList(int n) {
         int length = length();
         if (head == null || length == 1 || n >= length) {

@@ -13,7 +13,8 @@ public class Main {
         list.insertHead(0);
         list.insertHead(130);
         list.insertHead(400);
-        list.appendLastNNodesToBeginningOfList(3);
+        System.out.println(list.toString());
+        list.reverse();
         System.out.println(list.toString());
 
     }
