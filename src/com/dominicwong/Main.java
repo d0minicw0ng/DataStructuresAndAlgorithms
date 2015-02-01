@@ -15,13 +15,8 @@ public class Main {
         list.insertHead(130);
         list.insertHead(400);
 
-        list.deleteNode(new Node(0));
-        list.deleteNode(new Node(120));
-        list.deleteNode(new Node(10));
-        list.deleteNode(new Node(20));
-        list.deleteNode(new Node(130));
-
-        System.out.println(list.toString());
+        list.getTail().setNext(list.getHead());
+        System.out.println(list.isCircular());
 
     }
 }

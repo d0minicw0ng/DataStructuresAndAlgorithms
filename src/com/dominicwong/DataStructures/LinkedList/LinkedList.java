@@ -8,6 +8,21 @@ import java.util.HashSet;
 public class LinkedList {
     private Node head;
 
+    public Node getHead() {
+        return head;
+    }
+
+    public Node getTail() {
+        Node current = head;
+        while (current != null) {
+            if (current.getNext() == null) {
+                return current;
+            }
+            current = current.getNext();
+        }
+        return null;
+    }
+
     public void insertHead(int data) {
         Node newHead = new Node(data);
         newHead.setNext(head);
@@ -155,6 +170,20 @@ public class LinkedList {
         tail.setNext(head);
         newTail.setNext(null);
         this.head = newHead;
+    }
+
+    public boolean isCircular() {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.getNext() != null) {
+            if (fast.getNext().getNext() == slow.getNext()) {
+                return true;
+            }
+            fast = fast.getNext().getNext();
+            slow = slow.getNext();
+        }
+        return false;
     }
 
     @Override
