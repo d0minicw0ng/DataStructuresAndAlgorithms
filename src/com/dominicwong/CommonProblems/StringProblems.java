@@ -1,5 +1,7 @@
 package com.dominicwong.CommonProblems;
 
+import java.util.Arrays;
+
 /**
  * Created by dominicwong on 31/1/15.
  */
@@ -36,5 +38,63 @@ public class StringProblems {
             charAppearances[val] = true;
         }
         return true;
+    }
+
+    public static boolean isAnagram(String strOne, String strTwo) {
+        if (strOne.length() != strTwo.length()) {
+            return false;
+        }
+
+        int[] strOneCharCounter = new int[128];
+        int[] strTwoCharCounter = new int[128];
+
+        for (int i = 0; i < strOne.length(); i++) {
+            int charOneVal = strOne.charAt(i);
+            strOneCharCounter[charOneVal]++;
+
+            int charTwoVal = strTwo.charAt(i);
+            strTwoCharCounter[charTwoVal]++;
+        }
+
+        if (Arrays.equals(strOneCharCounter, strTwoCharCounter)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean isAnagramSolutionTwo(String strOne, String strTwo) {
+        if (strOne.length() != strTwo.length()) {
+            return false;
+        }
+
+        int[] charSet = new int[128];
+        int strOneNumOfUniqueChars = 0;
+        int strTwoNumOfUniqueChars = 0;
+
+        for (int i = 0; i < strOne.length(); i++) {
+            int val = strOne.charAt(i);
+            charSet[val]++;
+            if (charSet[val] == 1) {
+                strOneNumOfUniqueChars++;
+            }
+        }
+
+        for (int j = 0; j < strTwo.length(); j++) {
+            int val = strTwo.charAt(j);
+            if (charSet[val] == 0) {
+                return false;
+            }
+            charSet[val]--;
+            if (charSet[val] == 0) {
+                strTwoNumOfUniqueChars++;
+                if (strTwoNumOfUniqueChars == strOneNumOfUniqueChars) {
+                    return j == strTwo.length() - 1;
+                }
+
+            }
+        }
+
+        return false;
     }
 }
