@@ -114,6 +114,20 @@ public class LinkedList {
         }
     }
 
+    public void deleteNode(Node node) {
+        Node prev = head;
+        Node current = prev.getNext();
+
+        while (current != null) {
+            if (current.getData() == node.getData()) {
+                prev.setNext(current.getNext());
+                return;
+            }
+            prev = prev.getNext();
+            current = current.getNext();
+        }
+    }
+
     public void appendLastNNodesToBeginningOfList(int n) {
         int length = length();
         if (head == null || length == 1 || n >= length) {
