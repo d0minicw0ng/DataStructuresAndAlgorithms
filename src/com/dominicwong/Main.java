@@ -13,9 +13,7 @@ public class Main {
         list.insertHead(0);
         list.insertHead(130);
         list.insertHead(400);
-        System.out.println(list.toString());
-        list.reverse();
-        System.out.println(list.toString());
+        System.out.println(list.findKthElementFromTheEnd(8).getData());
 
     }
 }

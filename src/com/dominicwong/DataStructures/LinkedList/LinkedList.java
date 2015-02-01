@@ -37,6 +37,28 @@ public class LinkedList {
         return null;
     }
 
+    public Node findKthElementFromTheEnd(int k) {
+        if (k > length()) {
+            return null;
+        }
+
+        if (k == length()) {
+            return head;
+        }
+
+        Node current = head;
+        int targetNodeIndex = length() - k + 1;
+        int currentIndex = 1;
+        while (current != null) {
+            currentIndex++;
+            current = current.getNext();
+            if (currentIndex == targetNodeIndex) {
+                return current;
+            }
+        }
+        return null;
+    }
+
     public void reverse() {
         int length = length();
         if (length <= 1) {
