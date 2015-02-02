@@ -16,6 +16,8 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Ordered Array
 - Linked List
 - Doubly Linked List
+- Stack
+- Queue
 
 ### Common Problems
 ##### String
