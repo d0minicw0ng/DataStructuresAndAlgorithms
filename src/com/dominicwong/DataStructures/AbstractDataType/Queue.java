@@ -20,7 +20,7 @@ public class Queue {
     }
 
     public boolean isFull() {
-        return size == items.length - 1;
+        return size == capactiy;
     }
 
     public void enqueue(Object data) throws RuntimeException {

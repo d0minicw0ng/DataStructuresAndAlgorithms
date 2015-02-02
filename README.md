@@ -18,6 +18,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Doubly Linked List
 - Stack
 - Queue
+- Double Ended Queue
 
 ### Common Problems
 ##### String
