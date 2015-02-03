@@ -14,11 +14,12 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 ### Data Structures
 - Array
 - Ordered Array
-- Linked List
+- Linked List (Using Array and Linked List)
 - Doubly Linked List
 - Stack
 - Queue
 - Double Ended Queue
+- Two Stacks (Implementation of two stacks using one array)
 
 ### Common Problems
 ##### String
