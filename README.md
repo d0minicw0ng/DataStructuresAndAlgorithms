@@ -26,7 +26,10 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 ### Common Problems
 ##### String
 - determine whether a string has unique characters
-- determine whether two strings are anagrams 
+- determine whether two strings are anagrams
+
+##### Stacks
+- Polish Notation
 
 
 ### Problems 
