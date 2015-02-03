@@ -3,12 +3,12 @@ package com.dominicwong.DataStructures.AbstractDataType;
 /**
  * Created by dominicwong on 2/2/15.
  */
-public class Stack {
+public class ArrayStack {
     private int top;
     private int maxSize;
     private int[] items;
 
-    public Stack(int maxSize) {
+    public ArrayStack(int maxSize) {
         this.maxSize = maxSize;
         this.items = new int[maxSize];
         this.top = -1;

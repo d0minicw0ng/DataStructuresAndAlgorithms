@@ -3,14 +3,14 @@ package com.dominicwong.DataStructures.AbstractDataType;
 /**
  * Created by dominicwong on 2/2/15.
  */
-public class Queue {
+public class ArrayQueue {
     private Object[] items;
     private int head = 0;
     private int tail = 0;
     private int capactiy;
     private int size = 0;
 
-    public Queue(int size) {
+    public ArrayQueue(int size) {
         this.capactiy = size;
         this.items = new Object[size];
     }
