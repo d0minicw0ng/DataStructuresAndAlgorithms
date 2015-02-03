@@ -7,11 +7,9 @@ import com.dominicwong.DataStructures.LinkedList.Node;
  * Created by dominicwong on 3/2/15.
  */
 public class LinkedListStack {
-    private LinkedList list;
+    private LinkedList list = new LinkedList();
 
-    public LinkedListStack() {
-        this.list = new LinkedList();
-    }
+    public LinkedListStack() {}
 
     public boolean isEmpty() {
         return this.list.getHead() == null;

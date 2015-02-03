@@ -19,6 +19,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Array Stack
 - Linked List Stack
 - Array Queue
+- LinkedListQueue
 - Double Ended Queue
 - Two Stacks (Implementation of two stacks using one array)
 

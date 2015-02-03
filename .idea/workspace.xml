@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07fa77dd-bc42-4de7-89d0-4688030687d2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/Queue.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/Stack.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListQueue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListStack.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListStack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataStructuresAndAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +40,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42231077" vertical-offset="88" max-vertical-offset="645">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state vertical-scroll-proportion="-9.08" vertical-offset="88" max-vertical-offset="660">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.56925994" vertical-offset="30" max-vertical-offset="570">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoubleEndedQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/DoubleEndedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="1095">
+              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -59,17 +82,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="750">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="3030">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LinkedListStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,34 +117,8 @@
       <file leaf-file-name="ArrayStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding>
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="3030">
-              <caret line="197" column="22" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -138,19 +151,20 @@
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/Stack.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/DoubleEndedQueue.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/Queue.java" />
-        <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListStack.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/TwoStack.java" />
-        <option value="$PROJECT_DIR$/src/com/dominicwong/Main.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/TwoStacks.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListStack.java" />
+        <option value="$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/dominicwong/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
-    <option name="y" value="23" />
+    <option name="x" value="376" />
+    <option name="y" value="55" />
     <option name="width" value="1432" />
     <option name="height" value="792" />
   </component>
@@ -515,7 +529,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="23" width="1432" height="792" extended-state="0" />
+    <frame x="376" y="55" width="1432" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -597,14 +611,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="405">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
@@ -933,36 +939,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/DoubleEndedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="1155">
+        <state vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="1095">
           <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/LinkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2364" max-vertical-offset="3030">
-          <caret line="197" column="22" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="3030">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,6 +977,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.08" vertical-offset="88" max-vertical-offset="660">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/TwoStacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
@@ -982,33 +1003,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayStack.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.56925994" vertical-offset="30" max-vertical-offset="570">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/AbstractDataType/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42231077" vertical-offset="88" max-vertical-offset="645">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
