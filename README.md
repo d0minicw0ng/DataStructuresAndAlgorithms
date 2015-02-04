@@ -7,6 +7,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
+- Merge Sort
 
 ### Search
 - Binary Search
@@ -16,12 +17,10 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Ordered Array
 - Linked List
 - Doubly Linked List
-- Array Stack
-- Linked List Stack
-- Array Queue
-- LinkedListQueue
-- Double Ended Queue
+- Stack (Array based and Linked List based)
+- Queue (Array based and Linked List based)
 - Two Stacks (Implementation of two stacks using one array)
+- Double Ended Queue
 
 ### Common Problems
 ##### String
