@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="07fa77dd-bc42-4de7-89d0-4688030687d2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/BinaryTree/BinarySearchTree.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/BinaryTree/BinarySearchTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/BinaryTree/TreeNode.java" afterPath="$PROJECT_DIR$/src/com/dominicwong/DataStructures/BinaryTree/TreeNode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DataStructuresAndAlgorithms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/BinaryTree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5539568" vertical-offset="835" max-vertical-offset="1530">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.8705036" vertical-offset="1135" max-vertical-offset="1860">
+              <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -177,8 +175,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="461" />
-    <option name="y" value="25" />
+    <option name="x" value="623" />
+    <option name="y" value="29" />
     <option name="width" value="1432" />
     <option name="height" value="792" />
   </component>
@@ -473,7 +471,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="461" y="25" width="1432" height="792" extended-state="0" />
+    <frame x="623" y="29" width="1432" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -919,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dominicwong/DataStructures/BinaryTree/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5539568" vertical-offset="835" max-vertical-offset="1530">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.8705036" vertical-offset="1135" max-vertical-offset="1860">
+          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
           <folding />
         </state>
       </provider>

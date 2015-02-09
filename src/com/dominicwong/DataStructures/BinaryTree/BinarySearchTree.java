@@ -93,4 +93,26 @@ public class BinarySearchTree {
             parentOfSuccessor.setLeft(null);
         }
     }
+
+    public TreeNode smallestNode() {
+        if (root == null) {
+            return null;
+        }
+        TreeNode current = root;
+        while (current.getLeft() != null) {
+            current = current.getLeft();
+        }
+        return current;
+    }
+
+    public TreeNode largestNode() {
+        if (root == null) {
+            return null;
+        }
+        TreeNode current = root;
+        while (current.getRight() != null) {
+            current = current.getRight();
+        }
+        return current;
+    }
 }
