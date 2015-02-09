@@ -115,4 +115,21 @@ public class BinarySearchTree {
         }
         return current;
     }
+
+    public void traversalInOrder() {
+        if (root != null) {
+            traversalInOrder(root);
+        }
+    }
+
+    private void traversalInOrder(TreeNode node) {
+        if (root.getLeft() != null) {
+            traversalInOrder(root.getLeft());
+        }
+        System.out.println(node.getData());
+        if (root.getRight() != null) {
+            traversalInOrder(root.getRight());
+        }
+    }
+
 }
