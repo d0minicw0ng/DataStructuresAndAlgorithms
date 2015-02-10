@@ -9,6 +9,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Insertion Sort
 - Merge Sort
 - Quick Sort
+- Shell Sort
 
 ### Search
 - Binary Search
