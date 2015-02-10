@@ -173,4 +173,12 @@ public class BinarySearchTree {
             return numberOfLeafNodes(rootNode.getLeft()) + numberOfLeafNodes(rootNode.getRight());
         }
     }
+
+    public int height(TreeNode rootNode) {
+        if (rootNode == null) {
+            return 0;
+        } else {
+            return 1 + Math.max(height(rootNode.getLeft()), height(rootNode.getRight()));
+        }
+    }
 }
