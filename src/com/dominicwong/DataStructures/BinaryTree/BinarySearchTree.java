@@ -1,10 +1,18 @@
 package com.dominicwong.DataStructures.BinaryTree;
 
+import com.dominicwong.search.BinarySearch;
+
 /**
  * Created by dominicwong on 4/2/15.
  */
 public class BinarySearchTree {
     private TreeNode root;
+
+    public BinarySearchTree() {}
+
+    public BinarySearchTree(TreeNode node) {
+        this.root = node;
+    }
 
     public void insert(int data) {
         if (root == null) {
@@ -180,5 +188,21 @@ public class BinarySearchTree {
         } else {
             return 1 + Math.max(height(rootNode.getLeft()), height(rootNode.getRight()));
         }
+    }
+
+    public static BinarySearchTree sortedArrayToBST(int[] array) {
+        return new BinarySearchTree(sortedArrayToBST(array, 0, array.length - 1));
+    }
+
+    private static TreeNode sortedArrayToBST(int[] array, int start, int end) {
+        if (start > end) {
+            return null;
+        }
+
+        int mid = (start + end) / 2;
+        TreeNode rootNode = new TreeNode(array[mid]);
+        rootNode.setLeft(sortedArrayToBST(array, start, mid - 1));
+        rootNode.setRight(sortedArrayToBST(array, mid + 1, end));
+        return rootNode;
     }
 }
