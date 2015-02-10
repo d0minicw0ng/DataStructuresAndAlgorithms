@@ -132,4 +132,36 @@ public class BinarySearchTree {
         }
     }
 
+    public void traversalPreOrder() {
+        if (root != null) {
+            traversalPreOrder(root);
+        }
+    }
+
+    private void traversalPreOrder(TreeNode node) {
+        System.out.println(node.getData());
+        if (node.getLeft() != null) {
+            traversalInOrder(node.getLeft());
+        }
+        if (node.getRight() != null) {
+            traversalInOrder(node.getRight());
+        }
+    }
+
+    public void traversalPostOrder() {
+        if (root != null) {
+            traversalPostOrder(root);
+        }
+    }
+
+    private void traversalPostOrder(TreeNode node) {
+        if (node.getLeft() != null) {
+            traversalInOrder(node.getLeft());
+        }
+        if (node.getRight() != null) {
+            traversalInOrder(node.getRight());
+        }
+        System.out.println(node.getData());
+    }
+
 }
