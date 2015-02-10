@@ -164,4 +164,13 @@ public class BinarySearchTree {
         System.out.println(node.getData());
     }
 
+    public int numberOfLeafNodes(TreeNode rootNode) {
+        if (rootNode == null) {
+            return 0;
+        } else if (rootNode.getLeft() == null && rootNode.getRight() == null) {
+            return 1;
+        } else {
+            return numberOfLeafNodes(rootNode.getLeft()) + numberOfLeafNodes(rootNode.getRight());
+        }
+    }
 }
