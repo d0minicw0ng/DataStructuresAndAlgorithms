@@ -8,6 +8,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Selection Sort
 - Insertion Sort
 - Merge Sort
+- Quick Sort
 
 ### Search
 - Binary Search
@@ -21,6 +22,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Queue (Array based and Linked List based)
 - Two Stacks (Implementation of two stacks using one array)
 - Double Ended Queue
+- Binary Search Tree
 
 ### Common Problems
 ##### String
