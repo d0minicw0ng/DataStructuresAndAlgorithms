@@ -10,6 +10,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Merge Sort
 - Quick Sort
 - Shell Sort
+- Counting Sort
 
 ### Search
 - Binary Search
