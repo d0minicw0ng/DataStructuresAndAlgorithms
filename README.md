@@ -26,7 +26,7 @@ a useful material for anyone who wants to learn/refresh very basic data structur
 - Two Stacks (Implementation of two stacks using one array)
 - Double Ended Queue
 - Binary Search Tree
-- Heap
+- Heap (Max and Min Heap)
 
 ### Common Problems
 ##### String
